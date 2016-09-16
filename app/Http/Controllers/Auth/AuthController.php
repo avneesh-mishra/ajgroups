@@ -2,7 +2,7 @@
 
 namespace ajgroups\Http\Controllers\Auth;
 
-use ajgroups\User;
+// use ajgroups\User;
 use Validator;
 use ajgroups\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
