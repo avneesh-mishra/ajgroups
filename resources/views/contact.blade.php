@@ -33,4 +33,3 @@
         </div>
         {!! Form::close() !!}
     </div>
-Contact GitHub 
