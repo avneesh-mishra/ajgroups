@@ -10,17 +10,17 @@
         </p>
         <div style="padding-top: 20px;">
             {!! Form::label('Title','First Name *',['class'=>'mini-heading'])!!}
-            {!! Form::text('firstName',' ',['class'=>'mini-heading','required'])!!}
+            {!! Form::text('firstName',' ',['required'])!!}
 
             {{ $errors->first('title') }}
         </div>
         <div style="padding-top: 20px;">
-            {!! Form::label('Title','Last Name ',['class'=>'mini-heading'])!!}
-            {!! Form::text('lastName',' ',['class'=>'mini-heading','required'])!!}
+            {!! Form::label('Title','Last Name ')!!}
+            {!! Form::text('lastName',' ',['required'])!!}
             {{ $errors->first('title') }}
         </div> <div style="padding-top: 20px;">
-            {!! Form::label('Title','Email *',['class'=>'mini-heading'])!!}
-            {!! Form::text('email',' ',['class'=>'mini-heading','required'])!!}
+            {!! Form::label('Title','Email *')!!}
+            {!! Form::text('email',' ',['required'])!!}
             {{ $errors->first('title') }}
         </div>
         <div>
