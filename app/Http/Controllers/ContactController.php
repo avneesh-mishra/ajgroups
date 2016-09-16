@@ -85,8 +85,8 @@ class ContactController extends Controller
         //
     }
     
-    public function contactUs()
+    public function contactus()
     {
-        dd("hi avneesh");
+        return view('contact');
     }
 }
